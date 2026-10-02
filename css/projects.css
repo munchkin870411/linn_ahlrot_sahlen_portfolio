@@ -21,19 +21,11 @@
   border-top: 1px solid var(--line);
 }
 
-.project-detail-reverse {
-  grid-template-columns: 1fr;
-}
-
-.project-detail-reverse .detail-image {
-  order: 0;
-}
-
 .detail-image {
   background: var(--mint);
 }
 
-.atyourpace-image {
+.detail-image-logo {
   display: grid;
   min-height: 260px;
   place-items: center;
@@ -41,7 +33,7 @@
   background: var(--mint);
 }
 
-.atyourpace-image img {
+.detail-image-logo img {
   width: 100%;
   max-width: 620px;
 }

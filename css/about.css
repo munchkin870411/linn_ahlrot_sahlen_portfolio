@@ -6,38 +6,36 @@
   padding-block: 4rem 5rem;
 }
 
-.about-hero > div:first-child {
+.about-copy {
   max-width: 650px;
 }
 
-.about-hero p:not(.eyebrow) {
+.about-copy > p:not(.eyebrow):not(.lead) {
   color: var(--muted);
 }
 
-.about-hero .lead {
+.about-copy .lead {
   font-size: 1.35rem;
-  color: var(--ink) !important;
 }
 
 .about-hero .button {
   margin-top: 1rem;
 }
 
-.about-note {
+.strengths-card {
   padding: 2rem;
   background-color: var(--mint);
   transform: rotate(-4deg);
 }
 
-.big-number {
+.strengths-number {
   display: block;
   color: var(--green);
   font: 700 7rem/1 "Playfair Display", serif;
 }
 
-.about-note p {
+.strengths-card p {
   margin: 0;
-  color: var(--ink) !important;
 }
 
 .values-section {

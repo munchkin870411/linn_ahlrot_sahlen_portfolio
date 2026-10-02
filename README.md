@@ -19,7 +19,8 @@ Det här är en responsiv portfolio-webbplats för Linn Ahlrot Sahlén, färdigu
 - [x] Intern navigation och beskrivande länktexter utan döda länkar.
 - [x] Tre riktiga projekt från GitHub med länkar till repositories och publicerad demo där det finns: ETA Skåne, Munchkin Travel App och AtYourPace.
 - [x] Personlig logotyp med aliaset Munchkin och Linns namn.
-- [ ] Kör alla HTML-sidor och CSS-filer genom W3C-validatorerna före inlämning och säkerställ 0 errors.
+- [x] Alla fyra HTML-sidor validerade med Nu HTML Checker: 0 errors.
+- [x] Alla fem CSS-filer validerade med CSS Validator: 0 errors. Validatorns varningar om CSS-variabler förklaras nedan.
 
 ## Kör lokalt
 
@@ -33,7 +34,7 @@ Besök sedan `http://localhost:8000` i webbläsaren. Kontaktformuläret öppnar 
 
 ## Validering
 
-Kör varje HTML-fil genom [W3C Nu HTML Checker](https://validator.w3.org/nu/) och varje CSS-fil genom [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) före inlämning. Kravet är 0 errors.
+Alla HTML- och CSS-filer har kontrollerats med [W3C Nu HTML Checker](https://validator.w3.org/nu/) respektive [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Resultat: 0 errors.
 
 Förväntade varningar som kan ignoreras:
 

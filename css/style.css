@@ -479,8 +479,4 @@ em {
     justify-content: space-between;
     gap: 2rem;
   }
-
-  h1 {
-    font-size: clamp(2.7rem, 7vw, 5.7rem);
-  }
 }

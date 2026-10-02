@@ -39,7 +39,7 @@
   width: 100%;
 }
 
-.visual-note {
+.hero-badge {
   position: absolute;
   right: -2rem;
   bottom: 1rem;
@@ -51,11 +51,11 @@
   letter-spacing: .08em;
 }
 
-.visual-note strong {
+.hero-badge strong {
   font-size: .9rem;
 }
 
-.intro-section {
+.featured-projects {
   padding-bottom: 8rem;
 }
 
@@ -151,25 +151,21 @@
   margin: 2rem 0 0 auto;
 }
 
-.statement-band {
+.cta-band {
   background: var(--mint);
 }
 
-.statement-content {
+.cta-content {
   padding-block: 6rem;
 }
 
-.statement-content .eyebrow {
+.cta-content .eyebrow {
   color: var(--green);
 }
 
-.statement-content h2 {
+.cta-content h2 {
   max-width: 650px;
   margin-bottom: 2rem;
-}
-
-.statement-content em {
-  color: var(--mint);
 }
 
 @media (min-width: 480px) {
@@ -190,7 +186,7 @@
     justify-self: end;
   }
 
-  .visual-note {
+  .hero-badge {
     right: -1rem;
     bottom: 1.5rem;
   }
