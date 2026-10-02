@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Se Linn Ahlrot Sahléns utvalda webb- och designprojekt.">
+    <title>Projekt | Linn Ahlrot Sahlén</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="content-width header-bar">
+        <a class="brand" href="index.html" aria-label="Munchkin – Linn Ahlrot Sahléns startsida">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-name">
+            <strong>Munchkin</strong>
+            <small>Linn Ahlrot Sahlén</small>
+          </span>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <label class="nav-toggle-label" for="nav-toggle">
+          <span class="visually-hidden">Meny</span>
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </label>
+        <nav class="site-nav" aria-label="Huvudnavigation">
+          <a href="index.html">Start</a>
+          <a class="active" href="projects.html">Projekt</a>
+          <a href="about.html">Om mig</a>
+          <a href="contact.html">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-intro content-width">
+        <p class="eyebrow">Utvalt arbete</p>
+        <h1>Projekt och <em>lösningar.</em></h1>
+        <p>Här är ett urval av webbprojekt med fokus på användargränssnitt, data och funktionalitet.</p>
+      </section>
+
+      <section class="projects-list content-width" aria-label="Projektlista">
+        <article class="project-detail" id="eta-skane">
+          <div class="detail-image">
+            <img src="assets/eta-skane.jpg" width="800" height="520" alt="Resebild från ETA Skåne">
+          </div>
+          <div class="detail-copy">
+            <p class="project-type">01 · Fullstack webbapp · Pågående</p>
+            <h2>ETA Skåne</h2>
+            <p>Mitt LIA-projekt (Lära I Arbete) från min förra utbildning, byggt med Next.js och TypeScript. Applikationen är inte färdig, och jag fortsätter att utveckla den åt företaget.</p>
+            <ul class="tag-list">
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>shadcn/ui</li>
+            </ul>
+            <p>
+              <a class="text-link" href="https://github.com/munchkin870411/ETA-Skane" target="_blank" rel="noopener noreferrer">Se projektet på GitHub ↗</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project-detail project-detail-reverse" id="atyourpace">
+          <div class="detail-image atyourpace-image">
+            <img src="assets/atyourpace-logo.png" width="2000" height="400" alt="AtYourPace-logotyp med en klocka och en fyrklöver">
+          </div>
+          <div class="detail-copy">
+            <p class="project-type">02 · Mobilapp</p>
+            <h2>AtYourPace</h2>
+            <p>En app för att planera dagen i sin egen takt. Uppgifter kan organiseras i olika sektioner, schemaläggas och flyttas om. Appen innehåller även mallar, framstegsspårning och anpassningsbara teman.</p>
+            <ul class="tag-list">
+              <li>React Native</li>
+              <li>Expo</li>
+              <li>TypeScript</li>
+              <li>AsyncStorage</li>
+            </ul>
+            <p>
+              <a class="text-link" href="https://github.com/munchkin870411/atyourpace" target="_blank" rel="noopener noreferrer">Se AtYourPace på GitHub ↗</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project-detail" id="munchkin-travel">
+          <div class="detail-image">
+            <img src="assets/travel-app.svg" width="800" height="520" alt="Illustration av Munchkin Travel Apps landsökning och landkort">
+          </div>
+          <div class="detail-copy">
+            <p class="project-type">03 · API-driven webbapp</p>
+            <h2>Munchkin Travel App</h2>
+            <p>En reseapp med paginerade länder, sökning, regionfilter och detaljsidor. Varje land kan kompletteras med väder, bilder och information från externa API:er.</p>
+            <ul class="tag-list">
+              <li>Next.js</li>
+              <li>TanStack Query</li>
+              <li>Zod</li>
+            </ul>
+            <p>
+              <a class="text-link" href="https://github.com/munchkin870411/fe24-linn-ahlrot-js3-slutprojekt" target="_blank" rel="noopener noreferrer">GitHub</a>
+              ·
+              <a class="text-link" href="https://fe24-linn-ahlrot-js3-slutprojekt.vercel.app/" target="_blank" rel="noopener noreferrer">Öppna live-version ↗</a>
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="content-width footer-content">
+        <p>© 2024 Linn Ahlrot Sahlén</p>
+        <div class="footer-links">
+          <a href="mailto:munchkin870411@gmail.com">munchkin870411@gmail.com</a>
+          <a href="contact.html">Kontakt</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

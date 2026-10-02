@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kontakta Linn Ahlrot Sahlén om ett webbprojekt.">
+    <title>Kontakt | Linn Ahlrot Sahlén</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="content-width header-bar">
+        <a class="brand" href="index.html" aria-label="Munchkin – Linn Ahlrot Sahléns startsida">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-name">
+            <strong>Munchkin</strong>
+            <small>Linn Ahlrot Sahlén</small>
+          </span>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <label class="nav-toggle-label" for="nav-toggle">
+          <span class="visually-hidden">Meny</span>
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </label>
+        <nav class="site-nav" aria-label="Huvudnavigation">
+          <a href="index.html">Start</a>
+          <a href="projects.html">Projekt</a>
+          <a href="about.html">Om mig</a>
+          <a class="active" href="contact.html">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-layout content-width">
+        <div class="contact-intro">
+          <p class="eyebrow">Kontakt</p>
+          <h1>Nyfiken på att veta <em>mer?</em></h1>
+          <p>Oavsett om du representerar ett företag som söker en utvecklare, eller har ett projekt du vill diskutera, hör gärna av dig. Fyll i formuläret så återkommer jag så snart jag kan.</p>
+          <div class="contact-details">
+            <p>
+              <strong>E-post</strong>
+              <a href="mailto:munchkin870411@gmail.com">munchkin870411@gmail.com</a>
+            </p>
+            <p>
+              <strong>Plats</strong>
+              <span>Malmö, Sverige</span>
+            </p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:munchkin870411@gmail.com" method="post" enctype="text/plain">
+          <div class="form-field">
+            <label for="name">Namn</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">E-post</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Berätta lite mer</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Skicka meddelande <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Formuläret öppnar ditt e-postprogram. Inga uppgifter sparas på webbplatsen.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="content-width footer-content">
+        <p>© 2024 Linn Ahlrot Sahlén</p>
+        <div class="footer-links">
+          <a href="mailto:munchkin870411@gmail.com">munchkin870411@gmail.com</a>
+          <a href="index.html">Till startsidan</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

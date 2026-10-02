@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#e5f0eb"/>
+  <rect x="104" y="42" width="592" height="436" rx="14" fill="#fffdf9"/>
+  <rect x="104" y="42" width="592" height="58" rx="14" fill="#1f5b4a"/>
+  <path d="M104 86h592v14H104z" fill="#1f5b4a"/>
+  <circle cx="139" cy="71" r="10" fill="#36a99a"/>
+  <text x="160" y="77" fill="#fffdf9" font-family="Arial,sans-serif" font-size="19" font-weight="700">MunchkinTravelApp</text>
+  <rect x="142" y="125" width="516" height="48" rx="8" fill="#f6f4ef" stroke="#d6ddd8"/>
+  <circle cx="165" cy="149" r="7" fill="none" stroke="#65736d" stroke-width="2"/>
+  <path d="m170 154 6 6" stroke="#65736d" stroke-width="2" stroke-linecap="round"/>
+  <text x="187" y="155" fill="#65736d" font-family="Arial,sans-serif" font-size="14">Search countries...</text>
+  <text x="142" y="207" fill="#1d2b27" font-family="Arial,sans-serif" font-size="15" font-weight="700">Filter by Region</text>
+  <g font-family="Arial,sans-serif" font-size="12" text-anchor="middle">
+    <rect x="142" y="221" width="82" height="30" rx="15" fill="#1f5b4a"/><text x="183" y="241" fill="#fffdf9">All regions</text>
+    <rect x="232" y="221" width="72" height="30" rx="15" fill="#f6f4ef"/><text x="268" y="241" fill="#1d2b27">Africa</text>
+    <rect x="312" y="221" width="82" height="30" rx="15" fill="#f6f4ef"/><text x="353" y="241" fill="#1d2b27">Americas</text>
+    <rect x="402" y="221" width="61" height="30" rx="15" fill="#f6f4ef"/><text x="432" y="241" fill="#1d2b27">Asia</text>
+    <rect x="471" y="221" width="70" height="30" rx="15" fill="#f6f4ef"/><text x="506" y="241" fill="#1d2b27">Europe</text>
+    <rect x="549" y="221" width="83" height="30" rx="15" fill="#f6f4ef"/><text x="590" y="241" fill="#1d2b27">Oceania</text>
+  </g>
+  <g>
+    <rect x="142" y="271" width="158" height="167" rx="8" fill="#fffdf9" stroke="#d6ddd8"/>
+    <rect x="142" y="271" width="158" height="91" rx="8" fill="#dcefeb"/>
+    <path d="M142 354h158v8H142z" fill="#dcefeb"/>
+    <circle cx="221" cy="316" r="28" fill="#fffdf9"/>
+    <path d="M195 309h52v14h-52z" fill="#155b52"/>
+    <text x="158" y="390" fill="#1d2b27" font-family="Arial,sans-serif" font-size="15" font-weight="700">Japan</text>
+    <text x="158" y="412" fill="#65736d" font-family="Arial,sans-serif" font-size="12">Asia · Tokyo</text>
+    <rect x="320" y="271" width="158" height="167" rx="8" fill="#fffdf9" stroke="#d6ddd8"/>
+    <rect x="320" y="271" width="158" height="91" rx="8" fill="#dfeee6"/>
+    <path d="M320 316h158v13H320zM389 271h13v91h-13z" fill="#1f5b4a"/>
+    <text x="336" y="390" fill="#1d2b27" font-family="Arial,sans-serif" font-size="15" font-weight="700">Sweden</text>
+    <text x="336" y="412" fill="#65736d" font-family="Arial,sans-serif" font-size="12">Europe · Stockholm</text>
+    <rect x="498" y="271" width="158" height="167" rx="8" fill="#fffdf9" stroke="#d6ddd8"/>
+    <rect x="498" y="271" width="158" height="91" rx="8" fill="#f6f4ef"/>
+    <path d="M498 271h158v30H498z" fill="#1f5b4a"/>
+    <path d="M498 332h158v30H498z" fill="#36a99a"/>
+    <text x="514" y="390" fill="#1d2b27" font-family="Arial,sans-serif" font-size="15" font-weight="700">Italy</text>
+    <text x="514" y="412" fill="#65736d" font-family="Arial,sans-serif" font-size="12">Europe · Rome</text>
+  </g>
+</svg>
