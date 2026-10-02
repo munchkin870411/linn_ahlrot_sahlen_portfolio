@@ -242,9 +242,6 @@ button:focus-visible {
 
 .site-nav .active {
   color: var(--ink);
-}
-
-.site-nav .active {
   border-bottom: 2px solid var(--turquoise);
 }
 
@@ -310,11 +307,6 @@ em {
   color: white;
 }
 
-.button-light {
-  background: var(--paper);
-  color: var(--green);
-}
-
 .text-link {
   color: var(--green);
   font-weight: 600;
@@ -350,10 +342,6 @@ em {
 
   .button-primary:hover {
     background: var(--turquoise);
-  }
-
-  .button-light:hover {
-    background: var(--mint);
   }
 
   .text-link:hover,
