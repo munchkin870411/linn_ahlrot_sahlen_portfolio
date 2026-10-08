@@ -62,7 +62,7 @@
   font-size: .78rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .project-detail,
   .project-detail-reverse {
     grid-template-columns: 1.1fr .9fr;

@@ -81,14 +81,14 @@
   font-size: .78rem;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 640px) {
   .contact-details {
     flex-direction: row;
     gap: 2.5rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .contact-layout {
     grid-template-columns: .85fr 1.15fr;
     gap: 8rem;
