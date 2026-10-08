@@ -18,6 +18,10 @@ Responsiv portfolio-webbplats för Linn Ahlrot Sahlén, färdigutbildad frontend
 - [x] Mappstruktur: `css/` och `assets/`.
 - [x] Validerad med W3C: 0 errors i alla HTML- och CSS-filer.
 
+## Publicerad sida
+
+https://munchkin870411.github.io/linn_ahlrot_sahlen_portfolio/
+
 ## Kör lokalt
 
 Öppna `index.html` i en webbläsare. Kontaktformuläret öppnar användarens e-postprogram eftersom projektet saknar backend.
@@ -32,4 +36,3 @@ Alla filer är kontrollerade med [W3C Nu HTML Checker](https://validator.w3.org/
 ## Kända brister
 
 - Kontaktformuläret skickar via `mailto:` och behöver en formulärtjänst för att fungera utan e-postprogram.
-- Webbplatsen är inte publicerad ännu (t.ex. på Netlify).

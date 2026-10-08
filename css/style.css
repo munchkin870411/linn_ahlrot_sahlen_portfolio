@@ -81,13 +81,11 @@ button:focus-visible {
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }
 
-/* Osynlig kryssruta ovanpå hamburgerknappen: fångar klick och
-   tangentbordsinmatning (Tab + Mellanslag) utan JavaScript. */
 .nav-toggle-input {
   position: absolute;
   top: 1.5rem;
