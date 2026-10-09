@@ -359,9 +359,6 @@ em {
 }
 
 .section-heading {
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 1rem;
   margin-bottom: 2.5rem;
 }
 
